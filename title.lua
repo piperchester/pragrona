@@ -23,7 +23,6 @@ local function onBackgroundTouch( self, event )
 end
 
 -----------------------------------------------------------------------------------------
--- BEGINNING OF YOUR IMPLEMENTATION
 -- 
 -- NOTE: Code outside of listener functions (below) will only be executed once,
 --		 unless storyboard.removeScene() is called.
@@ -70,12 +69,10 @@ end
 function scene:destroyScene( event )
 	local group = self.view
 	
-	-- INSERT code here (e.g. remove listeners, remove widgets, save state variables, etc.)
-	
 end
 
 -----------------------------------------------------------------------------------------
--- END OF YOUR IMPLEMENTATION
+-- END OF IMPLEMENTATION
 -----------------------------------------------------------------------------------------
 
 -- "createScene" event is dispatched if scene's view does not exist

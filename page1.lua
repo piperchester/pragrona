@@ -8,7 +8,6 @@ local storyboard = require( "storyboard" )
 local scene = storyboard.newScene()
 
 -----------------------------------------------------------------------------------------
--- BEGINNING OF YOUR IMPLEMENTATION
 -- 
 -- NOTE: Code outside of listener functions (below) will only be executed once,
 --		 unless storyboard.removeScene() is called.
@@ -124,7 +123,6 @@ function scene:createScene( event )
 	tipText.y = display.contentHeight * 0.5
 	tipText.isVisible = true
 
-	
 	-- create pageTitleText
 	pageTitleText = display.newText( group, "", 0, 0, native.systemFontBold, 18 )
 	pageTitleText:setReferencePoint( display.CenterReferencePoint )
@@ -177,7 +175,7 @@ function scene:destroyScene( event )
 end
 
 -----------------------------------------------------------------------------------------
--- END OF YOUR IMPLEMENTATION
+-- END OF IMPLEMENTATION
 -----------------------------------------------------------------------------------------
 
 -- "createScene" event is dispatched if scene's view does not exist
